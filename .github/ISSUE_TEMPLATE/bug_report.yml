@@ -1,0 +1,56 @@
+name: Bug report
+description: Report a problem with Cowork Island.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem without sharing private conversations, credentials, or payment details.
+        **Send the ZIP from Export Diagnostics by email to support@coworkisland.com. Never attach it to a public issue.**
+        Report security vulnerabilities privately to the same address.
+  - type: input
+    id: version
+    attributes:
+      label: Cowork Island version and build
+      description: Copy the version and build from Settings → About if this field is empty.
+      placeholder: Version (build)
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: Describe the behavior you observed. Keep private data out of the report.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps. If you cannot reproduce it consistently, describe what you were doing before it happened.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: input
+    id: agents
+    attributes:
+      label: Agent and terminal or desktop app
+      description: Name the tools involved and their versions if known. Write "Not applicable" for a problem unrelated to a particular tool.
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      description: Find this in Apple menu → About This Mac.
+    validations:
+      required: true

@@ -1,0 +1,31 @@
+name: Feature request
+description: Suggest a change that would help your work with AI sessions.
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what you are trying to do and where you get stuck.
+        Keep private conversations, credentials, payment details, and diagnostics out of this public report.
+        For private support, email support@coworkisland.com. For an idea you want to discuss first, use [Discussions](https://github.com/coworkisland/cowork-island/discussions).
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the task and the difficulty you face today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help?
+      description: Describe the change you would like and how it would help with that task.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What have you tried?
+      description: Include any workaround or alternative you have considered.
+    validations:
+      required: false

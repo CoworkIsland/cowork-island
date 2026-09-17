@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private support and payments
+    url: mailto:support@coworkisland.com
+    about: Email private questions, payment or license issues, and Export Diagnostics ZIP files. Do not post them publicly.
+  - name: Security report
+    url: mailto:support@coworkisland.com
+    about: Report a suspected vulnerability privately by email.
+  - name: Community questions and ideas
+    url: https://github.com/coworkisland/cowork-island/discussions
+    about: Ask a question or discuss an idea with the community.
