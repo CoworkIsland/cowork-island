@@ -31,11 +31,15 @@ Requires **macOS 14 or later**. Visit **https://coworkisland.com** for current d
 ## Free, Pro and trial
 
 - **Free is permanent:** one visible session card and a counter for the remaining sessions. You can return to that session unless its state is **Needs you**; that particular jump requires Pro.
-- **Pro:** all session cards and the jump from Needs you. One-time purchase: **€9.99 for one Mac, €14.99 for two Macs, or €19.99 for three Macs**.
+- **Pro:** all session cards and the jump from Needs you. One-time purchase at Early Bird prices: **€9.99 for one Mac, €14.99 for two Macs, or €19.99 for three Macs** (€5 off the €14.99 / €19.99 / €24.99 list prices).
 - **7-day trial, no card required:** Pro and mascot-pack access during the trial.
 - **Optional mascot packs:** Desk and Abyss cost **€1.99 each**, or **€2.99 together**.
 
 Check the website for the offer available when you buy.
+
+## FAQ
+
+**The jump to a session in my terminal does nothing.** If you denied Automation for your terminal app, re-enable it in System Settings > Privacy & Security > Automation.
 
 ## Report a bug or suggest a change
 
